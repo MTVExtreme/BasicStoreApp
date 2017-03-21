@@ -20,15 +20,22 @@ body {
 
 }
 
-#main-header{
+#main-header {
     height: 80px;
-
+    background-color: black;
+    margin-bottom: 20px;
 }
 
 #header-logo{
-    width: 10%;
     float:left;
-    vertical-align:central;
+}
+
+#search {
+    float: right;
+    font-size: 18px;
+    padding: 5px;
+    margin: 20px 10px 0px 0px;
+
 }
 
 
@@ -37,15 +44,10 @@ body {
     font-size: 40px;
     color: aliceblue;
     padding: 15px;
-    margin: 0px 0px 0px 0px;
-    background-color: black;
+    
 }
 
-#search{
-    width:20%;
-    float: right;
-    display: inline;
-}
+
 
 #main-image {
     width:70%;
@@ -56,6 +58,7 @@ body {
 
 #side-image {
     width: 30%;
+    height: 250px;
     float: right;
 }
 
@@ -66,12 +69,28 @@ body {
     margin: 20px 0px 20px 0px;
 }
 
+#about-us{
+    float: right;
+    width: 30%;
+    margin: 20px 0px 20px 0px;
+}
+#about-us > header{
+    margin-left: 5px;
+    color:green;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
 
 footer{
-    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
     background-color: rgb(93, 44, 26);
-     margin: 20px 0px 20px 0px;
-    padding: 5px 0px 0px 0px;
     border-radius: 5px;
     
 }
+
